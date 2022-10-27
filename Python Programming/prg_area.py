@@ -4,6 +4,7 @@ while (c):
     print("1.Triangle")
     print("2.Rectangle")
     print("3.Circle")
+    print("4.Square")
     n=int(input("Enter your Choice "))
 
     if(n==1):
@@ -20,6 +21,10 @@ while (c):
         radius = int(input("Enter radius of Circle:"))
         circlearea = 3.14*radius*radius
         print("Area of Circle is {0}".format(circlearea))
+    elif(n==4):
+        side = int(input("Enter the Side"))
+        print("Area of Square",(side*side))
+        
     else:
         print("Wrong Choice")
 
